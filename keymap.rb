@@ -7,8 +7,8 @@ end
 kbd = Keyboard.new
 
 kbd.init_pins(
-  [],   # row0, row1
-  [15]  # col0, col1
+  [6],   # row0, row1
+  [28]  # col0, col1
 )
 
 kbd.add_layer :default, [

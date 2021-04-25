@@ -12,7 +12,7 @@ kbd.init_pins(
 )
 
 kbd.add_layer :default, [
-  %i(KC_A      KC_B),    %i(A B)
+  %i(KC_B      KC_C),    %i(B C)
 ]
 
 kbd.start!
